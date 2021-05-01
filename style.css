@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    position: relative;
+}
+#Home {
+    height: 100vh;
+    background-image: url(images/work-4.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.navbar {
+    height: 8vh;
+}
+.navbar-dark {
+    background-color: #050505 !important;
+    color: #FFF !important;
+}
+.navbar-light {
+    background-color: #FFF !important;
+    color: #00F !important;
+}
+.navbar-brand {
+    font-size: 2em;
+}
+.navbar-brand {
+    color: inherit !important;
+}
+.nav-link {
+    font-size: 1.3em;
+    color: inherit !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 5px;
+    position: relative;
+}
+.nav-link.active:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    width: 45px;
+    height: 3px;
+}
+.navbar-dark .nav-link.active:before {
+    background-color: #FFF;
+}
+.navbar-light .nav-link.active:before {
+    background-color: #00F;
+}
+.layout {
+    height: 100%;
+}
+.layout-black {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+.layout-text {
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.layout-text h1 {
+    font-size: 4em;
+}
+.layout-text h3 {
+    font-size: 2.5em;
+}
+#typeEffect {
+    width: 380px;
+}
+#About img {
+    width: 100%;
+}
+.details p {
+    margin: 17px 0;
+}
+.details strong {
+    margin-right: 10px;
+}
+.skill-progress {
+    background-color: #cde1f8;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 15px;
+}
+.progress-bar {
+    background-color: #0078ff;
+    height: 100%;
+}
+.describe {
+    font-size: 1.2em;
+}
+.about-me {
+    font-size: 2.3em;
+    margin-bottom: 1em;
+    position: relative;
+}
+.about-me:before {
+    content: "";
+    position: absolute;
+    top: 55px;
+    background-color: #0078ff;
+    width: 190px;
+    height: 5px;
+}
+.about-me ~ p {
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+#Services h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.3em;
+    margin-bottom: 1em;
+    position: relative;
+}
+#Services h2:before {
+    content: "";
+    position: absolute;
+    top: 55px;
+    left: 48%;
+    background-color: #0078ff;
+    width: 50px;
+    height: 5px;
+}
+.servicees {
+    background-color: #FFF;
+}
+.service-circle {
+    width:100px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    border-radius: 50%;
+    line-height: 9;
+    transition: all 500ms ease;
+}
+.service-circle:hover {
+    background-color: #0078ff;
+    color: #FFF;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.service-circle i {
+    font-size: 4em;
+}
+.service-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+#Contact {
+    height: 92vh;
+    background-image: url(images/overlay-bg.jpg);
+    background-size: 100% 120%;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.layout-blue {
+    background-color: rgba(0, 125, 255, 0.5);
+    height: 100%;
+}
+.contact-box {
+    width: 60%;
+}
+.contact-box h3 {
+    font-size: 2em;
+    position: relative;
+}
+.contact-box h3:before {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    background-color: #0078ff;
+    width: 70px;
+    height: 5px;
+}
+.sender-details * {
+    margin: 30px 0;
+}
+.contact-box p {
+    margin: 40px 0;
+    font-size: 1.3em;
+}
+.contact-details {
+    font-size: 1.2em;
+}
+.contact-details li {
+    list-style: none;
+}
+.contact-details i {
+    color: #0078ff;
+    margin-right: 10px;
+}
+.social i {
+    font-size: 1.7em;
+}
